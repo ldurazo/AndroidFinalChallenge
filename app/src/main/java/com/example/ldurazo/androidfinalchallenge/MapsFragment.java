@@ -46,8 +46,8 @@ public class MapsFragment extends Fragment {
 
 
 
-    private static final long TIMEUPDATE = 400;
-    private static final long DISTANCEUPDATE = 1000;
+    private static final long TIME_UPDATE = 400;
+    private static final long DISTANCE_UPDATE = 1000;
     private GoogleMap map;
     private LocationManager locationManager;
     private String provider;
@@ -98,8 +98,8 @@ public class MapsFragment extends Fragment {
             // Maybe the user lives in a cave, I don't know...
             // So we must register a listener in order to keep searching for the
             // location
-            locationManager.requestLocationUpdates(provider, TIMEUPDATE,
-                    DISTANCEUPDATE, myLocationListener);
+            locationManager.requestLocationUpdates(provider, TIME_UPDATE,
+                    DISTANCE_UPDATE, myLocationListener);
         }
     }
 

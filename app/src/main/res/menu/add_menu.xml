@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AddNoteActivity" >
+    <item android:id="@+id/add_note_confirm"
+    android:title="ADD"
+    android:orderInCategory="100"
+    android:showAsAction="always" />
+    <item android:id="@+id/cancel_add_note"
+    android:title="CANCEL"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+</menu>
